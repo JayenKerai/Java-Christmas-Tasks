@@ -13,7 +13,7 @@ public class FizzBuzzGenerator {
 		for (int i = startNumber; i <= endNumber ; i++) { //changed from < to <=
 			if(divisibleBy(i, 3) && divisibleBy(i, 5)) fizzBuzzList.add("FizzBuzz"); //changed from || to &&
 			else if (divisibleBy(i, 3)) fizzBuzzList.add("Fizz");
-			else if (divisibleBy(i, 5)) fizzBuzzList.add("Buzz"); //spelling error changed from "Buz" to "Buzz"
+			else if (divisibleBy(i, 5)) fizzBuzzList.add("Buzz"); //changed from "Buz" to "Buzz"
 			else fizzBuzzList.add(Integer.toString(i));
 		}
 		return fizzBuzzList;
