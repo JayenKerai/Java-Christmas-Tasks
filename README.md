@@ -31,7 +31,7 @@ Document individual changes made (what and where), along with what issue it solv
   1. Only 14 returned values (should be 15)
   2. Incorrect triggering of FizzBuzz word
   3. Buzz word not being triggered
-  4. Test case contains incorrect spelling/grammar: "buzz" should be "Buzz")
+  4. Test case contains incorrect spelling/grammar: "buzz" at 12 should be "Buzz" 
   5. Incorrect Spelling: "Buz" should be "Buzz"
 
 ## Changes
