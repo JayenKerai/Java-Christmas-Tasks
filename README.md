@@ -37,7 +37,7 @@ Document individual changes made (what and where), along with what issue it solv
 ## Changes
 1
 - Changed: At FizzBuzzGenerator > divisibleBy()
-  `return numerator % Denominator == 2; ` to `return numerator % Denominator == 0;`
+  `return numerator % Denominator == 2;` to `return numerator % Denominator == 0;`
 - Solves: 1.1, 3.2
 
 2
