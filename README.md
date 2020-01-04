@@ -12,21 +12,21 @@ Document individual changes made (what and where), along with what issue it solv
 ## Testing
 
 1 `divisibleBy(4,2)` should return true
-- output before changes: false
-- output after change 1: true
+- Output before changes: false
+- Output after change 1: true
 - Problems discovered: 
   1. Does not return true
 
 2 `divisibleBy(3,2)` should return false
-- output before changes: false
+- Output before changes: false
 - Problems discovered: ~
 
 3 `fizzBuzzGenerator(1,15)` should return ["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "buzz", "11", "Fizz", "13", "14", "FizzBuzz"]
-- output before changes: [1, FizzBuzz, 3, 4, FizzBuzz, 6, FizzBuzz, FizzBuzz, 9, 10, FizzBuzz, FizzBuzz, 13, FizzBuzz]
-- output after change 1: [1, 2, FizzBuzz, 4, FizzBuzz, FizzBuzz, 7, 8, FizzBuzz, FizzBuzz, 11, FizzBuzz, 13, 14]
-- output after change 2: [1, 2, FizzBuzz, 4, FizzBuzz, FizzBuzz, 7, 8, FizzBuzz, FizzBuzz, 11, FizzBuzz, 13, 14, FizzBuzz]
-- output after change 3: [1, 2, Fizz, 4, Buz, Fizz, 7, 8, Fizz, Buz, 11, Fizz, 13, 14, FizzBuzz]
-- output after change 5: [1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz]
+- Output before changes: [1, FizzBuzz, 3, 4, FizzBuzz, 6, FizzBuzz, FizzBuzz, 9, 10, FizzBuzz, FizzBuzz, 13, FizzBuzz]
+- Output after change 1: [1, 2, FizzBuzz, 4, FizzBuzz, FizzBuzz, 7, 8, FizzBuzz, FizzBuzz, 11, FizzBuzz, 13, 14]
+- Output after change 2: [1, 2, FizzBuzz, 4, FizzBuzz, FizzBuzz, 7, 8, FizzBuzz, FizzBuzz, 11, FizzBuzz, 13, 14, FizzBuzz]
+- Output after change 3: [1, 2, Fizz, 4, Buz, Fizz, 7, 8, Fizz, Buz, 11, Fizz, 13, 14, FizzBuzz]
+- Output after change 5: [1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz]
 - Problems discovered:
   1. Only 14 returned values (should be 15)
   2. Incorrect triggering of FizzBuzz word
